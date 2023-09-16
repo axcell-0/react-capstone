@@ -1,184 +1,201 @@
+# react-metrics-capstone
+<a name="readme-top"></a>
+
 <div align="center">
-  <h1>📺 react-metrics-anime</h1>
+
+  # Nji Wilsan N.
+  <br/>
+
+  <h3><b>REACT-METRICS</b></h3>
+
 </div>
 
-<!-- TABLE OF CONTENTS -->
 
-# 📖 Table of Contents
+# 📗 Table of Contents
 
-- [About the Project](#about-project)
-  - [🛠️ Built With](#built-with)
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
-    - [🔑 Key Features](#key-features)
-  - [🚀 Demo](#live-demo)
-  - [💻 Getting Started](#getting-started)
-    - [Prerequisites](#prerequisites)
-    - [Setup](#setup)
-    - [Install](#install)
-    - [Run Tests](#run-tests)
-    - [Build](#build)
-    - [Webpack Development Server](#webpack-development-server)
-  - [👤 Author](#author)
-  - [🔮 Future Features](#future-features)
-  - [🤝 Contributing](#contributing)
-  - [⭐️ Show Your Support](#show-your-support)
-  - [🙏 Acknowledgments](#acknowledgments)
-  - [📝 License](#license)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo / Video ShowCase](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
 
-# 📖 About the Project <a name="about-project"></a>
 
-**react-metrics-anime** is a single-page application built with React and Redux. It allows users to explore anime categories, view numeric values based on selected categories, and access detailed information about specific anime titles.
+# 📖 REACT-METRICS
 
-## 🛠️ Built With <a name="built-with"></a>
+This React capstone project is about building a mobile web application to check a list of metrics (numeric values) that I created making use of React and Redux.
+
+![Preview Image](Images/Preview.PNG)
+
+
+
+## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
+
 <details>
-  <summary>🖥️ Client</summary>
+  <summary>Frontend developer</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React</a></li>
-    <li><a href="https://redux.js.org/">Redux</a></li>
-    <li><a href="https://reactrouter.com/">React Router</a></li>
-    <li><a href="https://axios-http.com/">Axios</a></li>
-    <li><a href="https://tailwindcss.com/">Tailwind CSS</a></li> 
+    <li>REACT js</li>
+    <li>CSS</li>
+    <li>Node js</li>
+    <li><a href="https://fonts.googleapis.com"><li>
   </ul>
 </details>
 
 
-<!-- FEATURES -->
+### Key Features <a name="key-features"></a>
 
-### 🔑 Key Features <a name="key-features"></a>
-
-### Home Page
-
-- Upon loading, the webapp displays a list of anime categories, each with corresponding numeric values fetched from the API.
-- Users can click on a category item to navigate to the details page for that category.
-
-### Details Page
-
-- The details page shows comprehensive information about the selected anime category.
-- A "Back" button allows users to return to the home page.
+- Added Slice file
+- Added tailwind.css file
+- Added index.js file
+- Included appropriate Linters.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
 
-## 🚀 Demo <a name="live-demo"></a>
+## 🚀 Live Demo <a name="live-demo"></a>
 
-- [🔗 Live Demo Link](https://kit0-0.github.io/react-metrics-anime/)
+- [Live Demo](Coming soon)
+- [Live Demo](https://wils-fourr-speed.github.io/react-metrics-capstone/)
+- [Video ShowCase](https://www.loom.com/share/9b3a25676737408fa3921a5bec025894?sid=3af69d9b-53f7-481a-bc4a-24330f93d6f9)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#">back to top</a>)</p>
 
-<!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
+To get a local copy up and running, follow these steps.
+
 ### Prerequisites
 
-To run this project, you need the following:
+In order to run this project you need:
 
-- 🌐 Web browser
-- 🐙 Git
-- 👨‍💻 Code editor
+1. A Code Editor like:
+- VSCode
+- Atom, etc.
+
+2. NodeJs extension installed in your code editor.
+
+3. A Web Browser like
+- Google Chrome
+- Firefox
+- Microsoft Edge
+- Opera, etc.
+
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-```bash
-git clone https://github.com/kit0-0/react-metrics-anime.git
-```
+git clone https://github.com/Wils-FOURR-speed/react-metrics-capstone.git
 
 ### Install
 
-To install all dependencies, run the following command:
+Install this project with:
 
-```bash
-npm install
-```
+Run this command:
 
-### Run Tests
+...sh
+  cd my-project
+  npm install
+  ...
 
-To run tests, use the following commands:
 
-- To track CSS and JavaScript linter errors, run:
-```bash
-npm run lint
-```
+### Usage
 
-### Build
+To run the project, execute the following command:
 
-To build the project, run the following command:
+Example command:
+Open the index.html using live server.
 
-```bash
-npm run build
-```
+### Run tests
 
-### Webpack Development Server
+To run tests, run the following command:
 
-To run the webpack development server, execute the following command:
+- To trace all linter errors, run
+  ...
 
-```bash
-npm start
-```
+  npx hint .
+  ...
+- To check any styling error, run  
+  ...
+
+  npx stylelint "**/*.{css,scss}"
+  ...
+- To trace any JavaScript error, run
+  ...
+
+  npx eslint .
+  ...
+
+
+## 👥 Author <a name="Wilsan"></a>
+
+
+👤 **Wilsan**
+
+- GitHub: [@githubhandle](https://github.com/Wils-FOURR-speed)
+- Twitter: [@twitterhandle](https://twitter.com/WFourrspeed)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/nji-wilsan-ndenge-47b7a826a/)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- AUTHOR -->
 
-## 👤 Author <a name="author"></a>
+## 🔭 Future Features <a name="future-features"></a>
 
-👤 Kiko
 
-- GitHub: [@kit0-0](https://github.com/kit0-0)
+- [ ] Add more transitions and animations effects
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FUTURE FEATURES -->
-
-## 🔮 Future Features <a name="future-features"></a>
-
-- [ ] 📱 **Add Animation**: Enhance the user interface with smooth animations and transitions to make the user experience more engaging and interactive.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
 
-Contributions are welcome! If you want to contribute to the project, follow these steps:
+Contributions, issues, and feature requests are welcome!
 
-1. Fork the repository.
-2. Create a new branch.
-3. Make your changes and commit them.
-4. Push your branch to your forked repository.
-5. Open a pull request.
-
-Feel free to check the [issues page](https://github.com/kit0-0/react-metrics-anime/issues).
+Feel free to check the [issues page](https://github.com/Wils-FOURR-speed/react-metrics-capstone/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- SHOW YOUR SUPPORT -->
+## ⭐️ Show your support <a name="support"></a>
 
-## ⭐️ Show Your Support <a name="show-your-support"></a>
 
-If you like this project, give it a ⭐️.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ACKNOWLEDGEMENTS -->
-
-## 🙏 Acknowledgments <a name="acknowledgments"></a>
-
-I would like to thank Microverse for providing guidance and support during the development of this project. The design inspiration for this project is based on the work by Nelson Sakwa on Behance. The project also relies on data provided by [kitsu](https://kitsu.docs.apiary.io/) to fetch anime information.
+If you like this project, please give me a star.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-<!-- LICENSE -->
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+Big thanks to:
+- Microverse
+- [Nelson Sakwa on Behance](https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)) is credited with the original  concept and idea for the design showcase.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
 
 ## 📝 License <a name="license"></a>
 
-This project is licensed under the [MIT License](./LICENSE).
+This project is [MIT](./LICENSE) licensed.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

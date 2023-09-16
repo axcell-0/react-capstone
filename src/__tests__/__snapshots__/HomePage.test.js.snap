@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`fetchAnimeDetailsById should fetch anime by ID and return anime data 1`] = `
+Array [
+  Object {
+    "meta": Object {
+      "arg": "1",
+      "requestId": "_dbl6tOw1Rs9nxUQ6rp9R",
+      "requestStatus": "pending",
+    },
+    "payload": undefined,
+    "type": "anime/fetchAnimeDetailsById/pending",
+  },
+  Object {
+    "meta": Object {
+      "arg": "1",
+      "requestId": "_dbl6tOw1Rs9nxUQ6rp9R",
+      "requestStatus": "fulfilled",
+    },
+    "payload": Object {
+      "description": "test anime",
+      "id": "1",
+      "title": "Test Anime",
+    },
+    "type": "anime/fetchAnimeDetailsById/fulfilled",
+  },
+]
+`;
+
+exports[`fetchAnimeListByCategory should fetch anime list by category and return anime data 1`] = `
+Array [
+  Object {
+    "meta": Object {
+      "arg": "action",
+      "requestId": "SRWZ7kI4yLVlTo-nvgXEV",
+      "requestStatus": "pending",
+    },
+    "payload": undefined,
+    "type": "anime/fetchAnimeListByCategory/pending",
+  },
+  Object {
+    "meta": Object {
+      "arg": "action",
+      "requestId": "SRWZ7kI4yLVlTo-nvgXEV",
+      "requestStatus": "fulfilled",
+    },
+    "payload": Array [
+      Object {
+        "description": "This is Anime 1",
+        "id": "1",
+        "title": "Anime 1",
+      },
+      Object {
+        "description": "This is Anime 2",
+        "id": "2",
+        "title": "Anime 2",
+      },
+    ],
+    "type": "anime/fetchAnimeListByCategory/fulfilled",
+  },
+]
+`;
+
+exports[`fetchAnimeListByCategory should handle error if anime list fetch by category fails 1`] = `
+Array [
+  Object {
+    "meta": Object {
+      "arg": "action",
+      "requestId": "Fddxtyvt3oQOq9PW_0oFZ",
+      "requestStatus": "pending",
+    },
+    "payload": undefined,
+    "type": "anime/fetchAnimeListByCategory/pending",
+  },
+  Object {
+    "error": Object {
+      "message": "Failed to fetch anime.",
+      "name": "Error",
+      "stack": "Error: Failed to fetch anime.
+    at C:\\\\Users\\\\THIERRY\\\\capstone react project\\\\react-capstone\\\\src\\\\redux\\\\HomePage.Slice.js:23:11
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+    },
+    "meta": Object {
+      "aborted": false,
+      "arg": "action",
+      "condition": false,
+      "rejectedWithValue": false,
+      "requestId": "Fddxtyvt3oQOq9PW_0oFZ",
+      "requestStatus": "rejected",
+    },
+    "payload": undefined,
+    "type": "anime/fetchAnimeListByCategory/rejected",
+  },
+]
+`;
