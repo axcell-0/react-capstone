@@ -100,7 +100,7 @@ In order to run this project you need:
 
 Clone this repository to your desired folder:
 
-git clone https://github.com/Wils-FOURR-speed/react-metrics-capstone.git
+git clone https://github.com/axcell-0/react-capstone.git
 
 ### Install
 
