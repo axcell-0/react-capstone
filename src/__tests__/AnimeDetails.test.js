@@ -1,8 +1,8 @@
 import React from 'react';
 import { render } from '@testing-library/react';
 import { Provider } from 'react-redux';
-import store from '../redux/store';
-import Details from '../components/AnimeDetails';
+import store from '../Store';
+import Details from '../Components/AnimeDetails';
 
 test('renders Details component correctly', () => {
   const { container } = render(
