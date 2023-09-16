@@ -1,7 +1,7 @@
 import React from 'react';
 import { render } from '@testing-library/react';
 import { MemoryRouter, BrowserRouter as Router } from 'react-router-dom';
-import Navbar from '../Components/Navbar';
+import Navbar from '../components/Navbar';
 
 describe('Navbar Component', () => {
   test('renders title correctly based on pathname', () => {

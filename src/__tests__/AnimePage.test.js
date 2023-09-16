@@ -1,7 +1,7 @@
 import { render } from '@testing-library/react';
 import { Provider } from 'react-redux';
 import store from '../Store';
-import AnimeCard from '../Components/AnimePage';
+import AnimeCard from '../components/AnimePage';
 
 describe('renders AnimeCardComponent', () => {
   it('matches the snapshot', () => {
