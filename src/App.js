@@ -2,13 +2,13 @@ import React from 'react';
 import {
   BrowserRouter as Router, Routes, Route,
 } from 'react-router-dom';
-import AnimeCard from './components/AnimeCardComponent';
-import Navbar from './components/Navbar';
-import Details from './components/AnimeDetails';
+import AnimeCard from './Components/AnimePage';
+import Navbar from './Components/Navbar';
+import Details from './Components/AnimeDetails';
 
 function App() {
   return (
-    <Router basename="/react-metrics-anime">
+    <Router basename="/react-capstone">
       <div className="App">
         <Navbar />
         <div>
