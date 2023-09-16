@@ -1,9 +1,9 @@
-# react-metrics-capstone
+# reactcapstone
 <a name="readme-top"></a>
 
 <div align="center">
 
-  # Nji Wilsan N.
+  # THIERRY NOUMBUH
   <br/>
 
   <h3><b>REACT-METRICS</b></h3>
@@ -32,7 +32,7 @@
 - [📝 License](#license)
 
 
-# 📖 REACT-METRICS
+# 📖 react-capstone
 
 This React capstone project is about building a mobile web application to check a list of metrics (numeric values) that I created making use of React and Redux.
 
@@ -69,8 +69,8 @@ This React capstone project is about building a mobile web application to check 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Live Demo](Coming soon)
-- [Live Demo](https://wils-fourr-speed.github.io/react-metrics-capstone/)
-- [Video ShowCase](https://www.loom.com/share/9b3a25676737408fa3921a5bec025894?sid=3af69d9b-53f7-481a-bc4a-24330f93d6f9)
+- [Live Demo](https://axcell-0.github.io/react-capstone//)
+- [Video ShowCase]()
 
 <p align="right">(<a href="#">back to top</a>)</p>
 
@@ -142,14 +142,13 @@ To run tests, run the following command:
   ...
 
 
-## 👥 Author <a name="Wilsan"></a>
+## 👥 Author <a name="THIERRY NOUMBUH"></a>
 
 
-👤 **Wilsan**
+👤 **THIERRY NOUMBUH**
 
-- GitHub: [@githubhandle](https://github.com/Wils-FOURR-speed)
-- Twitter: [@twitterhandle](https://twitter.com/WFourrspeed)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/nji-wilsan-ndenge-47b7a826a/)
+- GitHub: [@githubhandle](https://github.com/axcell-0)
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -167,7 +166,7 @@ To run tests, run the following command:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Wils-FOURR-speed/react-metrics-capstone/issues).
+Feel free to check the [issues page](https://github.com/axcell-0/react-capstone/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
