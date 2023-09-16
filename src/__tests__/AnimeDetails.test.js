@@ -1,0 +1,14 @@
+import React from 'react';
+import { render } from '@testing-library/react';
+import { Provider } from 'react-redux';
+import store from '../Store';
+import Details from '../components/AnimeDetails';
+
+test('renders Details component correctly', () => {
+  const { container } = render(
+    <Provider store={store}>
+      <Details />
+    </Provider>,
+  );
+  expect(container.firstChild).toMatchSnapshot();
+});
