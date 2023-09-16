@@ -70,7 +70,7 @@ This React capstone project is about building a mobile web application to check 
 
 - [Live Demo](Coming soon)
 - [Live Demo](https://axcell-0.github.io/react-capstone//)
-- [Video ShowCase]()
+- [Video ShowCase](https://drive.google.com/file/d/1Th79Z6mTNnOaYIT7hF_wf7MIxP3D58Oz/view?usp=sharing)
 
 <p align="right">(<a href="#">back to top</a>)</p>
 
